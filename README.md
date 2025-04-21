@@ -1,8 +1,8 @@
 # cloud-security-lab
 
-Welcome to the **Cloud Security IoT Practicals** repository! This repo is designed to support a 2-day hands-on workshop for students exploring the fundamentals of **cloud security using AWS services**, tailored toward Internet of Things (IoT) applications.
+Welcome to the **Cloud Security IoT Practicals** repository! This repo is designed for scloud securoty labs in 2 days for students exploring the fundamentals of **cloud security using AWS services**, tailored toward Internet of Things (IoT) applications.
 
-## 🧠 What You'll Learn
+## What You'll Learn
 
 Participants will gain practical skills in:
 
@@ -12,7 +12,7 @@ Participants will gain practical skills in:
 - Web application and data security
 - Secrets management and container security
 
-## 📅 Workshop Structure
+## Workshop Structure
 
 The workshop is divided into two days with 10 structured labs:
 
@@ -38,11 +38,11 @@ cloud-security-lab/
 ├── README.md
 ├── LICENSE
 ├── Day1/
-│   ├── 1_VPC_Setup.md
-│   ├── 2_IAM_Users.md
-│   ├── 3_MFA_Setup.md
-│   ├── 4_CloudTrail.md
-│   └── 5_Config_Compliance.md
+│   ├── [1_VPC_Setup.md](./Day1/1_VPC_Setup.md).
+│   ├── [2_IAM_Users.md](./Day1/2_IAM_Users.md).
+│   ├── [3_MFA_Setup.md](./Day1/3_MFA_Setup.md).
+│   ├── [4_CloudTrail.md](./Day1/4_CloudTrail.md).
+│   └── [5_AWS_Config_Setup.md](./Day1/5_AWS_Config_Setup.md).
 ├── Day2/
 │   ├── 6_WAF.md
 │   ├── 7_Data_Encryption.md
@@ -51,13 +51,13 @@ cloud-security-lab/
 │   └── 10_Secrets_Manager.md
 ```
 
-## 🚀 Requirements
+## Requirements
 
 - AWS Free Tier account (guide included in each lab)
 - Basic understanding of networking and cloud principles
 - Optional: Git, VS Code, AWS CLI
 
-## 🧑‍🏫 For Instructors
+## For Instructors
 
 Each lab is self-contained and includes:
 - Objectives  
@@ -65,7 +65,7 @@ Each lab is self-contained and includes:
 - Screenshots and CLI commands  
 - Clean-up steps  
 
-## 📜 License
+## License
 
 This project is licensed under the [MIT License](./LICENSE).
 

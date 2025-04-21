@@ -39,7 +39,7 @@ This simulates a secure cloud environment setup for IoT devices.
    - Tenancy: Default
 5. Click **Create VPC**
 
-![VPC Created ](<Screenshot 2025-04-21 at 5.08.06 PM.png>)
+![VPC Created ](</Day1/Images/Screenshot 2025-04-21 at 5.08.06 PM.png>)
 
 ---
 
@@ -81,13 +81,13 @@ Create two subnets:
    - Destination: `0.0.0.0/0`
    - Target: Internet Gateway (`iot-igw`)
 
-![Created Route](<Screenshot 2025-04-21 at 5.09.33 PM-1.png>)
+![Created Route](</Day1/Images/Screenshot 2025-04-21 at 5.09.33 PM-1.png>)
 
 3. Associate this route table to **public-subnet** only.
 
 Now, only your public subnet has internet access.
 
-![Route Table Setup](<Screenshot 2025-04-21 at 5.09.33 PM.png>)
+![Route Table Setup](</Day1/Images/Screenshot 2025-04-21 at 5.09.33 PM.png>)
 
 ---
 
@@ -110,10 +110,10 @@ Now, only your public subnet has internet access.
    - Outbound: Allow all (default)
 5. Launch instance using a new key pair or existing one
 
-![EC2 Instance Launched](<Screenshot 2025-04-21 at 5.12.20 PM.png>)
+![EC2 Instance Launched](</Day1/Images/Screenshot 2025-04-21 at 5.12.20 PM.png>)
 
 
-![Inbound and Outbound Rules](<Screenshot 2025-04-21 at 5.12.36 PM.png>)
+![Inbound and Outbound Rules](</Day1/Images/Screenshot 2025-04-21 at 5.12.36 PM.png>)
 ---
 
 ### Step 7: Test the Setup
@@ -173,7 +173,7 @@ To avoid charges:
 - Detach & delete the Internet Gateway
 - Delete the Route Table and VPC
 
-![Delete](<Screenshot 2025-04-21 at 5.14.26 PM.png>)
+![Delete](</Day1/Images/Screenshot 2025-04-21 at 5.14.26 PM.png>)
 
 ---
 
